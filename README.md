@@ -2,7 +2,21 @@
 
 Uma aplicação para que um usuário possa gerenciar uma lista de contatos.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+API de contatos:
+
+Para listar todos os contatos : GET
+http://localhost:8000/contatos/
+
+Para exibir detalhes de um contato : GET
+http://localhost:8000/contatos/<id>
+
+  
+Para alterar os dados de um contato: PUT 
+http://localhost:8000/contatos/<id>
+  
+Para deletar um contato: DELETE 
+http://localhost:8000/contatos/<id>
+
 
 ## Pré-Requisitos
 
